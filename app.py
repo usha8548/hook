@@ -23,6 +23,6 @@ if __name__ == "__main__":
   print("student calculator application")
   print("Addition:",add(20,20))
   print("subtraction:",subtract(20,19))
-  print("multiplication:",multiply(5,4))
+  print("multiplication:",multiply(3,4))
   print("\nExecuting automated Tests...\n")
   unittest.main(argv=['first-arg-is-ignored'],exit=false)
