@@ -14,7 +14,7 @@ class TestCalculator(unittest.Testcase):
     self.assertEqual(add(20,20),40)
     
  def test_subtract(self):
-    self.assertEqual(subtract(20,10),10)
+    self.assertEqual(subtract(20,15),5)
 
  def test_multiply(self):
    self.assertEqual(multiply(3,4),12)
@@ -22,7 +22,7 @@ class TestCalculator(unittest.Testcase):
 if __name__ == "__main__":
   print("student calculator application")
   print("Addition:",add(20,20))
-  print("subtraction:",subtract(20,10))
+  print("subtraction:",subtract(20,15))
   print("multiplication:",multiply(3,4))
   print("\nExecuting automated Tests...\n")
   unittest.main(argv=['first-arg-is-ignored'],exit=false)
