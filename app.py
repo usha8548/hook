@@ -20,14 +20,14 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(20, 15), 5)
 
     def test_multiply(self):
-        self.assertEqual(multiply(3, 4), 12)
+        self.assertEqual(multiply(7, 4), 28)
 
 
 if __name__ == "__main__":
     print("Student Calculator Application")
     print("Addition:", add(20, 30))
     print("Subtraction:", subtract(20, 15))
-    print("Multiplication:", multiply(3, 4))
+    print("Multiplication:", multiply(7, 28))
 
     print("\nExecuting automated Tests...\n")
 
