@@ -7,10 +7,10 @@ pipeline{
       }
     }
     stage('Build){
-          steps{
-            echo 'checking python application'
-            bat 'python -m py_compile app.py'
-          }
+      steps{
+         echo 'checking python application'
+         bat 'python -m py_compile app.py'
+      }
     }
     stage('Test'){
       steps{
