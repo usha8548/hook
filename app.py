@@ -11,7 +11,7 @@ def multiply(a,b):
 
 class TestCalculator(unittest.Testcase):
   def test_add(self):
-    self.assertEqual(add(20,20),40)
+    self.assertEqual(add(20,30),50)
     
  def test_subtract(self):
     self.assertEqual(subtract(20,15),5)
@@ -21,7 +21,7 @@ class TestCalculator(unittest.Testcase):
 
 if __name__ == "__main__":
   print("student calculator application")
-  print("Addition:",add(20,20))
+  print("Addition:",add(20,30))
   print("subtraction:",subtract(20,15))
   print("multiplication:",multiply(3,4))
   print("\nExecuting automated Tests...\n")
